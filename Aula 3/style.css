@@ -1,0 +1,25 @@
+/*seletores de tag*/
+p{
+    color: red;
+    font-size: 20px;
+}
+
+/*seletores de classe*/
+.texto-verde{
+    color: crimson;
+}
+
+/* Seletores de ID */
+#texto-azul {
+    color: yellow;
+    background-color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
