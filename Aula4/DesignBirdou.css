@@ -1,0 +1,10 @@
+.fundo {
+    color: white;
+    background-color: greenyellow;
+    border: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;    
+}

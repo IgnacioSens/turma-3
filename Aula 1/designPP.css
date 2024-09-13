@@ -21,7 +21,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; /* Ajuste a altura conforme necessário */
+    height: 20vh;
   }
 
 .texto{
@@ -38,10 +38,13 @@ img {
     font-style: normal;
     
 }
-button {
-    width: 100px;
+.button {
+    width: 150px;
     height: 40px;
     background-color: blue;
     color: white;
     text-align: center;
   }
+.fonte{
+    font-family: 'Times New Roman', Times, serif;
+}
