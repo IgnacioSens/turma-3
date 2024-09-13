@@ -23,3 +23,25 @@ img {
     align-items: center;
     height: 20vh; /* Ajuste a altura conforme necessário */
   }
+
+.texto{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large
+}
+.fundo{
+    color: blue;
+    background-color: azure;
+    border: 1px solid;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    
+}
+button {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
