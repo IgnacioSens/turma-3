@@ -1,0 +1,31 @@
+.fundoDaPagina {
+    color: aquamarine;
+}
+.nFundo {
+    color: blue;
+    background-color: azure;
+    border: 1px solid;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.button {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+.caixa {
+    float: left;
+    position: absolute;
+    width: 300px; /* Largura da caixa */
+    height: 200px; /* Altura da caixa */
+    border: 2px solid #000; /* Borda da caixa */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px; /* Espaçamento externo */
+    background-color: #f0f0f0; /* Cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra da caixa */
+}
