@@ -6,5 +6,198 @@
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
-    font-style: normal;    
+    font-style: normal;
 }
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#pond1 .container {
+    width: 1300px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pond2 .container {
+
+    display: flex;
+    justify-content: center;
+}
+
+#pond3 .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pond4 .container {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pond5 .container {
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#pond6 .container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pond7 .container {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#pond8 .container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#pond9 .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#pond10 .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#pond11 .container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-end;
+
+}
+
+#pond12 .container {
+    height: 1100px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+#pond13 .container {
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#pond14 .container {
+    display: flex;
+
+}
+.yellow14 {
+    order: 2;
+    }
+
+
+#pond15 .container {
+    display: flex;
+
+}
+.red15 {
+    order: -1;
+    }
+
+#pond16 .container {
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+}
+.yellow16 {
+    align-self: flex-end;
+    }
+#pond17 .container {
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+}
+.yellow17 {
+    align-self: flex-end;
+    order: 2;
+    }
+#pond18 .container {
+    width: 1000px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pond19 .container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#pond20 .container {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#pond21 .container {
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+align-content: flex-start;
+}
+
+#pond22 .container {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+#pond23 .container {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+#pond24 .container {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+
