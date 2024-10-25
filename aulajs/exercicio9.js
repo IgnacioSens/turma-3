@@ -33,6 +33,7 @@ function verificador(x)
                     console.log(". não encontrado");
                     return "e-mail inválido"
         }
+        
     }
     console.log("@ não encontrado");
     return "e-mail inválido"

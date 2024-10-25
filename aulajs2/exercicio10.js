@@ -43,12 +43,11 @@ function alunosMaior(array){
     if(array[i].idade>=18)
     {
      resultado[indice]=array[i]
-     indice++      
+     console.log(resultado[indice])   
+     indice++
     }
     }
-    console.log(resultado[0])
-    console.log(resultado[1])  
-    console.log(resultado[2])     
+        
     return resultado 
 }
 console.log(alunosMaior(turma))
