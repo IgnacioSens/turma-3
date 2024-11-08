@@ -20,3 +20,11 @@ button {
     color: blue;
     text-align: center;
   }
+
+.divBotoes{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    flex: start;
+
+}
